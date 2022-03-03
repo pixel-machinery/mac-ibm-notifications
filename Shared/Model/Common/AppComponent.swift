@@ -19,15 +19,15 @@ enum AppComponent {
     var bundleName: String {
         switch self {
         case .core:
-            return "IBM Notifier"
+            return "Pixel Machinery"
         case .alert:
-            return "IBM Notifier Alert"
+            return "Pixel Machinery Alert"
         case .banner:
-            return "IBM Notifier Banner"
+            return "Pixel Machinery Banner"
         case .onboarding:
-            return "IBM Notifier Onboarding"
+            return "Pixel Machinery Onboarding"
         case .popup:
-            return "IBM Notifier Popup"
+            return "Pixel Machinery Popup"
         }
     }
     var binaryPath: String {
