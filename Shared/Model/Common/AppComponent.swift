@@ -43,15 +43,15 @@ enum AppComponent {
     }
     private var current: AppComponent {
         switch Bundle.main.bundleIdentifier! {
-        case "com.ibm.cio.notifier":
+        case "com.pixelmachinery.notifier":
             return .core
-        case "com.ibm.cio.notifier.alert":
+        case "com.pixelmachinery.notifier.alert":
             return .alert
-        case "com.ibm.cio.notifier.banner":
+        case "com.pixelmachinery.notifier.banner":
             return .banner
-        case "com.ibm.cio.notifier.popup":
+        case "com.pixelmachinery.notifier.popup":
             return .popup
-        case "com.ibm.cio.notifier.onboarding":
+        case "com.pixelmachinery.notifier.onboarding":
             return .onboarding
         default:
             return .core
